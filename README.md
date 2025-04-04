@@ -1,1 +1,2 @@
 # LiveCaptioningDemo
+Simple demo of the whisper library. test.py contains a simple script that records for 5 seconds and then transcribes. Continous.py improves this by trying to continously listen for when someone is speaking before transcribing. This is done through threads, however python does not really have multi threaded processing. To combat this we have to use multi processing. This code is present in multicont.py. 
